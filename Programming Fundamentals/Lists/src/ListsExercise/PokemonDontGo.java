@@ -24,7 +24,6 @@ public class PokemonDontGo {
                  currentPokemon = pokemonsList.get(pokemonsList.size() - 1);
                  removedSum += currentPokemon;
                  pokemonsList.remove(pokemonsList.size() - 1);
-                 int temp = pokemonsList.size();
                  pokemonsList.add(pokemonsList.size(), pokemonsList.get(0));
              }  else {
                  currentPokemon = pokemonsList.get(index);
