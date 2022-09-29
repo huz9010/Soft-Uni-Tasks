@@ -21,12 +21,15 @@ public class ManOWar {
                     int fireIndex = Integer.parseInt(command[1]);
                     int fireDamage = Integer.parseInt(command[2]);
                     if (fireIndex >= 0 && fireIndex < warShip.length){
-                        warShip[fireIndex] -= fireDamage;
-                        if (warShip[fireIndex] <= 0)    {
+                        if (warShip[fireIndex] <= fireDamage)   {
                             System.out.println("You won! The enemy ship has sunken.");
                             stalemate = false;
                             break;
+                        }   else {
+                        warShip[fireIndex] -= fireDamage;
                         }
+                    }   else {
+                        break;
                     }
                     break;
 
@@ -34,15 +37,18 @@ public class ManOWar {
                     int startIndex = Integer.parseInt(command[1]);
                     int endIndex = Integer.parseInt(command[2]);
                     int damage = Integer.parseInt(command[3]);
-                    if (startIndex >= 0 && startIndex < pirateShip.length && endIndex > 0 && endIndex < pirateShip.length && startIndex >= endIndex){
+                    if (startIndex <= endIndex && startIndex >= 0 && endIndex < pirateShip.length){
                         for (int i = startIndex; i <= endIndex; i++) {
-                            pirateShip[i] -= damage;
-                            if (pirateShip[i] <= 0) {
+                            if (pirateShip[i] <= damage)    {
                                 System.out.println("You lost! The pirate ship has sunken.");
                                 stalemate = false;
                                 break;
+                            }   else {
+                            pirateShip[i] -= damage;
                             }
                         }
+                    }   else {
+                        break;
                     }
                     break;
 
@@ -54,6 +60,8 @@ public class ManOWar {
                         if (pirateShip[repairIndex] > maxHealth)    {
                             pirateShip[repairIndex] = maxHealth;
                         }
+                    }   else {
+                        break;
                     }
                     break;
 
@@ -66,6 +74,9 @@ public class ManOWar {
                     }
                     System.out.printf("%d sections need repair.%n", sectionsToRepair);
                     break;
+            }
+            if (!stalemate) {
+                break;
             }
             input = scanner.nextLine();
         }
