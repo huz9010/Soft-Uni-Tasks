@@ -29,12 +29,14 @@ public class MemoryGame {
                     System.out.println("Try again!");
                 }
             }
+            if (sequence.size() == 0)   {
+                System.out.printf("You have won in %d turns!%n", moves);
+                break;
+            }
             moves++;
             input = scanner.nextLine();
         }
-        if (sequence.size() == 0)   {
-            System.out.printf("You have won in %d turns!%n", moves);
-        }   else {
+        if (sequence.size() > 0)   {
             System.out.printf("Sorry you lose :(%n");
             for (String element : sequence) {
                 System.out.print(element + " ");
