@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class Songs {
    static class Song {
-       String typeList;
-       String name;
-       String time;
+       private String typeList;
+       private String name;
+       private String time;
 
        public void setSong(String typeList, String name, String time) {
            this.typeList = typeList;
