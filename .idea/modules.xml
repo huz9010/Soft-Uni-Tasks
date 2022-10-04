@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Programming Fundamentals/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Programming Fundamentals/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programming Fundamentals/BasicSyntaxConditionalStatementsandLoops/BasicSyntaxConditionalStatementsandLoops.iml" filepath="$PROJECT_DIR$/Programming Fundamentals/BasicSyntaxConditionalStatementsandLoops/BasicSyntaxConditionalStatementsandLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics Book/ComplexConditions/ComplexConditions.iml" filepath="$PROJECT_DIR$/Programing Basics Book/ComplexConditions/ComplexConditions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics/ComplexConditions/ComplexConditions1.iml" filepath="$PROJECT_DIR$/Programing Basics/ComplexConditions/ComplexConditions1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics Book/ComplexLoops/ComplexLoops.iml" filepath="$PROJECT_DIR$/Programing Basics Book/ComplexLoops/ComplexLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programming Fundamentals/DataTypesAndVariables/DataTypesAndVariables.iml" filepath="$PROJECT_DIR$/Programming Fundamentals/DataTypesAndVariables/DataTypesAndVariables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programming Fundamentals/ExamPractice/ExamPractice.iml" filepath="$PROJECT_DIR$/Programming Fundamentals/ExamPractice/ExamPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics/FirstSteps/FirstSteps.iml" filepath="$PROJECT_DIR$/Programing Basics/FirstSteps/FirstSteps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics/FirstStepsExercise/FirstStepsExercise.iml" filepath="$PROJECT_DIR$/Programing Basics/FirstStepsExercise/FirstStepsExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics/FirstStepsMoreExercises/FirstStepsMoreExercises.iml" filepath="$PROJECT_DIR$/Programing Basics/FirstStepsMoreExercises/FirstStepsMoreExercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programming Fundamentals/Lists/Lists.iml" filepath="$PROJECT_DIR$/Programming Fundamentals/Lists/Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics/Loops/Loops.iml" filepath="$PROJECT_DIR$/Programing Basics/Loops/Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics Book/Loops/Loops1.iml" filepath="$PROJECT_DIR$/Programing Basics Book/Loops/Loops1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programming Fundamentals/Methods/Methods.iml" filepath="$PROJECT_DIR$/Programming Fundamentals/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics Exam Practice/Programing Basics Exam Practice.iml" filepath="$PROJECT_DIR$/Programing Basics Exam Practice/Programing Basics Exam Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics Book/SimpleCalculations/SimpleCalculations.iml" filepath="$PROJECT_DIR$/Programing Basics Book/SimpleCalculations/SimpleCalculations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programing Basics/SimpleConditions/SimpleConditions.iml" filepath="$PROJECT_DIR$/Programing Basics/SimpleConditions/SimpleConditions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" filepath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" />
+    </modules>
+  </component>
+</project>
