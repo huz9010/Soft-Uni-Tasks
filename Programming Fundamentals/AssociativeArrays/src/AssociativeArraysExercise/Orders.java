@@ -21,9 +21,9 @@ public class Orders {
                 priceAndQuantity.add(quantity);
                 productMap.put(product, priceAndQuantity);
             }   else {
-                priceAndQuantity.add(0, price);
+                priceAndQuantity.add(price);
                 double currentQuantity = productMap.get(product).get(1) + quantity;
-                priceAndQuantity.add(1, currentQuantity);
+                priceAndQuantity.add(currentQuantity);
                 productMap.put(product, priceAndQuantity);
             }
             input = scanner.nextLine();
