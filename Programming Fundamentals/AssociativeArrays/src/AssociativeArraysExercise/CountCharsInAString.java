@@ -12,7 +12,7 @@ public class CountCharsInAString {
         LinkedHashMap<Character, Integer> charCount = new LinkedHashMap<>();
 
         for (int i = 0; i < input.length(); i++) {
-            if (Character.compare(input.charAt(i), ' ') != 0) {
+            if (input.charAt(i) != ' ') {
                 if (!charCount.containsKey(input.charAt(i)))    {
                     charCount.put(input.charAt(i), 1);
                 }   else {
