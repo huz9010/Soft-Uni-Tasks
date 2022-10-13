@@ -29,12 +29,14 @@ public class AnonymousThreat {
                     if (endIndex >= inputList.size()) {
                         endIndex = inputList.size() - 1;
                     }
-                    String tempString = "";
+
+                    StringBuilder tempString = new StringBuilder();
+
                     for (int i = startIndex; i <= endIndex; i++) {
-                        tempString += inputList.get(i);
+                        tempString.append(inputList.get(i));
                     }
                     inputList.removeAll(inputList.subList(startIndex, endIndex + 1));
-                    inputList.add(startIndex, tempString);
+                    inputList.add(startIndex, tempString.toString());
                     break;
                 case "divide":
                     int index = Integer.parseInt(command[1]);
@@ -42,14 +44,26 @@ public class AnonymousThreat {
                     String currentElement = inputList.get(index);
                     int charsInPart = currentElement.length() / partitions;
                     List<String> equalStr = new ArrayList<>();
+
                     if (currentElement.length() % partitions == 0) {
                         for (int i = 0; i < currentElement.length(); i += charsInPart) {
                             String part = currentElement.substring(i, i + charsInPart);
                             equalStr.add(part);
                         }
+                    } else {
+                        int indexCounter = -1;
+                        for (int i = 0; i < currentElement.length(); i+=charsInPart) {
+                            String part = currentElement.substring(i, i + charsInPart);
+                            equalStr.add(part);
+                            indexCounter = i + charsInPart;
+                            if (equalStr.size() == partitions - 1)  {
+                                break;
+                            }
+                        }
+                        equalStr.add(currentElement.substring(indexCounter));
                     }
                     inputList.remove(index);
-                    inputList.addAll(index - 1, equalStr);
+                    inputList.addAll(index, equalStr);
                     break;
             }
             input = scanner.nextLine();
