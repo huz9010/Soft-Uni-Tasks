@@ -24,14 +24,11 @@ public class MovingTarget {
                         }   else {
                             targets.remove(index);
                         }
-                    }   else {
-                        input = scanner.nextLine();
-                        continue;
                     }
                     break;
                 case "Add":
                     int value = Integer.parseInt(command[2]);
-                    if (index >= 0 && index <= targets.size())    {
+                    if (index >= 0 && index < targets.size())    {
                         targets.add(index, value);
                     }   else {
                         System.out.println("Invalid placement!");
@@ -39,8 +36,11 @@ public class MovingTarget {
                     break;
                 case "Strike":
                     int radius = Integer.parseInt(command[2]);
+                    int elementCount = radius * 2 + 1;
                     if ((index - radius) >= 0 && (index + radius) < targets.size()) {
-                        targets.removeAll(targets.subList(index - radius, index + radius + 1));
+                        for (int i = 0; i < elementCount; i++) {
+                            targets.remove(index - radius);
+                        }
                     }   else {
                         System.out.println("Strike missed!");
                     }
