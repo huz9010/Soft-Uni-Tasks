@@ -26,22 +26,22 @@ public class LegendaryFarming {
                 materialsMap.put(material, quantity);
 
                 if (materialsMap.get("shards") >= 250)  {
-                    int tempshards = materialsMap.get("shards") - 250;
-                    materialsMap.put("shards", tempshards);
+                    int tempShards = materialsMap.get("shards") - 250;
+                    materialsMap.put("shards", tempShards);
                     System.out.println("Shadowmourne obtained!");
                     isWonLegendary= true;
                     break;
 
                 } else if (materialsMap.get("fragments") >= 250) {
-                    int tempfragments = materialsMap.get("fragments") - 250;
-                    materialsMap.put("fragments", tempfragments);
+                    int tempFragments = materialsMap.get("fragments") - 250;
+                    materialsMap.put("fragments", tempFragments);
                     System.out.println("Valanyr obtained!");
                     isWonLegendary = true;
                     break;
 
                 }   else if (materialsMap.get("motes") >= 250)  {
-                    int tempmotes = materialsMap.get("motes") - 250;
-                    materialsMap.put("motes", tempmotes);
+                    int tempMotes = materialsMap.get("motes") - 250;
+                    materialsMap.put("motes", tempMotes);
                     System.out.println("Dragonwrath obtained!");
                     isWonLegendary = true;
                     break;
