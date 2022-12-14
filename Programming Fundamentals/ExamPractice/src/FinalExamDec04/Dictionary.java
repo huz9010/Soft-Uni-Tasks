@@ -40,7 +40,6 @@ public class Dictionary {
             for (Map.Entry<String, List<String>> entry : dictionary.entrySet()) {
                 System.out.printf("%s ",entry.getKey());
             }
-
         }
     }
 }
