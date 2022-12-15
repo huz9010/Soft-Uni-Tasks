@@ -1,5 +1,4 @@
 package StacksAndQueuesLab;
-
 import java.util.ArrayDeque;
 import java.util.Scanner;
 
@@ -13,9 +12,13 @@ public class BrowserHistoryUpgrade {
         String currentUrl = "";
 
         while (!input.equals("Home")) {
+            if (input.equals(""))   {
+                input = scanner.nextLine();
+                continue;
+            }
             if (input.equals("back")) {
 
-                if (stack.isEmpty()) {
+                if (stack.size() < 1) {
                     System.out.println("no previous URLs");
                     input = scanner.nextLine();
                     continue;
@@ -28,7 +31,7 @@ public class BrowserHistoryUpgrade {
 
             } else if (input.equals("forward")) {
 
-                if (forward.isEmpty()) {
+                if (forward.size() < 1) {
                     System.out.println("no next URLs");
                     input = scanner.nextLine();
                     continue;
@@ -43,6 +46,7 @@ public class BrowserHistoryUpgrade {
 
                 if (!currentUrl.equals("")) {
                     stack.push(currentUrl);
+                    forward.clear();
                 }
 
                 currentUrl = input;
