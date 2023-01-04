@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9425c604-2d79-4021-b559-7e1eb11fc8f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Programing Basics Book/ComplexConditions/ComplexConditions.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing Basics Book/ComplexLoops/ComplexLoops.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing Basics Book/SimpleCalculations/SimpleCalculations.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing Basics Exam Practice/Programing Basics Exam Practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing Basics/FirstSteps/FirstSteps.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing Basics/FirstStepsExercise/FirstStepsExercise.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing Basics/FirstStepsMoreExercises/FirstStepsMoreExercises.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing Basics/Loops/Loops.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing Basics/SimpleConditions/SimpleConditions.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals/Arrays/Arrays.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals/BasicSyntaxConditionalStatementsandLoops/BasicSyntaxConditionalStatementsandLoops.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals/DataTypesAndVariables/DataTypesAndVariables.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals/ExamPractice/ExamPractice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals/Lists/Lists.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programming Fundamentals/Methods/Methods.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/MultidimensionalArrays/src/MultidimensionalArraysLab/FindTheRealQueen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,12 +33,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="FindTheRealQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultidimensionalArraysLab.FindTheRealQueen" />
+      <module name="Soft-Uni-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultidimensionalArraysLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FindTheRealQueen" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
