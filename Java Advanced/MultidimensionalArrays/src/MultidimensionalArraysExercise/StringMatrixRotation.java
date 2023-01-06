@@ -29,9 +29,10 @@ public class StringMatrixRotation {
 
         fillTheMatrix(wordList, matrix);
 
-        int rotationCount = degrees / 90 - 1;
+        int rotationCount = degrees / 90;
 
         if (rotationCount % 4 != 0) {
+            rotationCount--;
             printMatrix(rotateMatrix90(matrix, rotationCount));
         }   else {
             printMatrix(matrix);
@@ -41,7 +42,7 @@ public class StringMatrixRotation {
     private static void printMatrix(char[][] matrix) {
         for (int r = 0; r < matrix.length; r++) {
             for (int c = 0; c < matrix[r].length; c++) {
-                System.out.print(matrix[r][c] + " ");
+                System.out.print(matrix[r][c]);
             }
             System.out.println();
         }
@@ -77,11 +78,10 @@ public class StringMatrixRotation {
             matrixCol++;
         }
 
-        while (rotationCount != 0)  {
-            rotationCount--;
-            rotateMatrix90(rotatedMatrix, rotationCount);
-
+        if (rotationCount > 0)  {
+            return rotateMatrix90(rotatedMatrix, rotationCount - 1);
+        }   else {
+            return rotatedMatrix;
         }
-        return rotatedMatrix;
     }
 }
