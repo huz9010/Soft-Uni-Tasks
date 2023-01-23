@@ -1,6 +1,5 @@
 package FunctionalProgrammingLab;
 
-import java.awt.geom.Arc2D;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
