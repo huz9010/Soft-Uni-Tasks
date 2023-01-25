@@ -1,7 +1,6 @@
 package SetsAndMapsExercise;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 public class LegendaryFarming {
     public static void main(String[] args) {
@@ -10,6 +9,9 @@ public class LegendaryFarming {
         String input = scanner.nextLine();
         boolean isLegendaryItemObtained = false;
         HashMap<String, Integer> keyMaterials = new HashMap<>();
+        keyMaterials.putIfAbsent("shards", 0);
+        keyMaterials.putIfAbsent("fragments", 0);
+        keyMaterials.putIfAbsent("motes", 0);
         TreeMap<String, Integer> junk = new TreeMap<>();
 
         while (!isLegendaryItemObtained) {
@@ -40,16 +42,22 @@ public class LegendaryFarming {
                 input = scanner.nextLine();
         }
 
+        keyMaterials.entrySet().stream()
+                .sorted((v1, v2) -> v2.getValue().compareTo(v1.getValue()))
+                .forEach(e -> System.out.printf("%s: %d%n", e.getKey(), e.getValue()));
 
+        junk.forEach((key, value) -> System.out.printf("%s: %d%n", key, value));
     }
 
     private static void getItems(HashMap<String, Integer> keyMaterials, TreeMap<String, Integer> junk, int quantity, String item) {
         if (item.equalsIgnoreCase("shards") || item.equalsIgnoreCase("fragments") || item.equalsIgnoreCase("motes")) {
+
             keyMaterials.putIfAbsent(item, 0);
             int currentQuantity = keyMaterials.get(item);
             currentQuantity += quantity;
             keyMaterials.put(item, currentQuantity);
         }   else {
+
             junk.putIfAbsent(item, 0);
             int currentQuantity = junk.get(item);
             currentQuantity += quantity;
