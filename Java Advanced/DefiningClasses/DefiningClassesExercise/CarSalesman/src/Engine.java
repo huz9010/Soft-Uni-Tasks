@@ -7,13 +7,45 @@ public class Engine {
     private String model;
     private int power;
     private int displacement;
-    private char efficiency;
+    private String efficiency;
 
-    public Engine(String model, int power, int displacement, char efficiency) {
+    //V4-33:
+//Power: 140
+//Displacement: 28
+//Efficiency: B
+
+    @Override
+    public String toString() {
+        if (this.displacement != -1) {
+            return String.format("%s:%n" +
+                    "Power: %d%n" +
+                    "Displacement: %d%n" +
+                    "Efficiency: %s", this.model, this.power, this.displacement, this.efficiency);
+        } else {
+            return String.format("%s:%n" +
+                    "Power: %d%n" +
+                    "Displacement: n/a%n" +
+                    "Efficiency: %s", this.model, this.power, this.efficiency);
+        }
+    }
+
+    public Engine(String model, int power, int displacement, String efficiency) {
         this.model = model;
         this.power = power;
         this.displacement = displacement;
         this.efficiency = efficiency;
+    }
+
+    public Engine(String model, int power, String efficiency) {
+        this(model, power, -1, efficiency);
+    }
+
+    public Engine(String model, int power, int displacement) {
+        this(model, power, displacement, "n/a");
+    }
+
+    public Engine(String model, int power) {
+        this(model, power, -1, "n/a");
     }
 
     public String getModel() {
@@ -40,11 +72,11 @@ public class Engine {
         this.displacement = displacement;
     }
 
-    public char getEfficiency() {
+    public String getEfficiency() {
         return efficiency;
     }
 
-    public void setEfficiency(char efficiency) {
+    public void setEfficiency(String efficiency) {
         this.efficiency = efficiency;
     }
 }
