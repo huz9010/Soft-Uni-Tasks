@@ -1,23 +1,9 @@
 public class Car {
 
-//    A Car has a model, engine, weight, and color.
-//    An Engine has a model, power, displacement, and efficiency.
-//    A Car's weight, color, Engine displacements, and efficiency are optional.
-
     private String model;
     private Engine engine;
     private int weight;
     private String color;
-
-    //    FordFocus:
-//V4-33:
-//Power: 140
-//Displacement: 28
-//Efficiency: B
-
-//Weight: 1300
-//Color: Silver
-
 
     @Override
     public String toString()    {
@@ -39,7 +25,6 @@ public class Car {
         this.weight = weight;
         this.color = color;
     }
-
 
     public Car(String model, int weight) {
         this(model, weight,"n/a");

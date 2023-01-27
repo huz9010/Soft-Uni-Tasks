@@ -1,18 +1,9 @@
 public class Engine {
 
-//    /    A Car has a model, engine, weight, and color.
-////    An Engine has a model, power, displacement, and efficiency.
-////    A Car's weight, color, Engine displacements, and efficiency are optional.
-
     private String model;
     private int power;
     private int displacement;
     private String efficiency;
-
-    //V4-33:
-//Power: 140
-//Displacement: 28
-//Efficiency: B
 
     @Override
     public String toString() {
