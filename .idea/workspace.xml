@@ -5,10 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9425c604-2d79-4021-b559-7e1eb11fc8f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java Advanced/MultidimensionalArrays/src/MultidimensionalArraysLab/FindTheRealQueen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/CustomList/CustomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/CustomList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericBox/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericBox/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericBoxOfInteger/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericBoxOfInteger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericCountMethodDouble/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericCountMethodDouble/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericCountMethodString/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericCountMethodString/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericSwapMethodInteger/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericSwapMethodInteger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericSwapMethodString/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsExercise/src/GenericSwapMethodString/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsLab/src/GenericArrayCreator/ArrayCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsLab/src/GenericArrayCreator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsLab/src/GenericScale/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsLab/src/GenericScale/Scale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsLab/src/JarOfT/Jar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsLab/src/JarOfT/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsLab/src/ListUtilities/ListUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Generics/GenericsLab/src/ListUtilities/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamJune2022/workout/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamJune2022/workout/Workout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamOct2022/shelter/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamOct2022/shelter/Shelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamRetakeAug2022/sanctuary/Elephant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamRetakeAug2022/sanctuary/Habitat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/RetakeExamApr2022/easterBasket/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/RetakeExamApr2022/easterBasket/Egg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/RetakeExamApr2022/easterBasket/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/RetakeExamDec2022/softUni/SoftUni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/RetakeExamDec2022/softUni/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/MultidimensionalArrays/src/MultidimensionalArraysExercise/ReverseMatrixDiagonals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/StacksAndQueues/src/StacksAndQueuesExercises/RecursiveFibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Advanced/DefiningClasses/DefiningClassesExercise/CatLady.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Advanced/MultidimensionalArrays/src/MultidimensionalArraysExercise/Crossfire.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Advanced/MultidimensionalArrays/src/MultidimensionalArraysExercise/Crossfire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Advanced/MultidimensionalArrays/src/MultidimensionalArraysExercise/TheHeiganDance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Advanced/MultidimensionalArrays/src/MultidimensionalArraysExercise/TheHeiganDance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -19,15 +19,20 @@ public class TheHeiganDance {
         }
         String spell = "";
         boolean playerIsHit = false;
+        boolean activeCloud = false;
 
         while (heiganHitPoints > 0 && playerHitPoints > 0) {
             heiganHitPoints -= damageToHeigan;
 
-            if (spell.equals("Cloud") && playerIsHit)  {
+            if (activeCloud)  {
                 playerHitPoints -= 3500;
+                activeCloud = false;
+                if (isDead(playerHitPoints))    {
+                    break;
+                }
             }
 
-            if (isDead(heiganHitPoints) || isDead(playerHitPoints))    {
+            if (isDead(heiganHitPoints))    {
                 break;
             }
 
@@ -37,23 +42,33 @@ public class TheHeiganDance {
             int r = Integer.parseInt(input.split("\\s+")[1]);
             int c = Integer.parseInt(input.split("\\s+")[2]);
 
-            if (isValidIndexForSpell(r, c)) {
 
                 castSpell(spell, r, c, chamber);
 
-                if (isValidIndexForPlayer(playerPosition[0] - 1, playerPosition[1], chamber))   {
-                    playerPosition[0]--;
-                } else if (isValidIndexForPlayer(playerPosition[0], playerPosition[1] + 1, chamber)) {
-                    playerPosition[1]++;
-                } else if (isValidIndexForPlayer(playerPosition[0] + 1, playerPosition[1], chamber)) {
-                    playerPosition[0]++;
-                } else if (isValidIndexForPlayer(playerPosition[0], playerPosition[1] - 1, chamber)) {
-                    playerPosition[1]--;
-                }   else {
-                    playerIsHit = true;
-                    playerHitPoints = (spell.equals("Cloud") ? playerHitPoints - 3500 : playerHitPoints - 6000);
+                if (chamber[playerPosition[0]][playerPosition[1]].equals(spell)) {
+
+                    if (isValidIndexForPlayer(playerPosition[0] - 1, playerPosition[1], chamber)) {
+                        playerPosition[0]--;
+                    } else if (isValidIndexForPlayer(playerPosition[0], playerPosition[1] + 1, chamber)) {
+                        playerPosition[1]++;
+                    } else if (isValidIndexForPlayer(playerPosition[0] + 1, playerPosition[1], chamber)) {
+                        playerPosition[0]++;
+                    } else if (isValidIndexForPlayer(playerPosition[0], playerPosition[1] - 1, chamber)) {
+                        playerPosition[1]--;
+                    } else {
+                        playerIsHit = true;
+                        playerHitPoints = (spell.equals("Cloud") ? playerHitPoints - 3500 : playerHitPoints - 6000);
+                    }
                 }
+
+            if (spell.equals("Cloud") && playerIsHit)   {
+                activeCloud = true;
             }
+
+            if (isDead(heiganHitPoints) || isDead(playerHitPoints))    {
+                break;
+            }
+
             clearSpell(r,c, chamber);
         }
         if (spell.equals("Cloud"))  {
@@ -80,13 +95,13 @@ public class TheHeiganDance {
     }
 
     public static void castSpell (String spell, int r, int c, String[][] chamber) {
-        r--;
-        c--;
 
-        for (int row = r; row < r + 3; row++) {
-            for (int col = c; col < c + 3; col++) {
-                if (isValidIndexForSpell(row, col)) {
-                    chamber[row][col] = spell;
+        for (int row = r - 1; row <= r + 1; row++) {
+            if (row >= 0 && row < chamber.length) {
+                for (int col = c - 1; col <= c + 1; col++) {
+                    if (col >= 0 && col < chamber[row].length) {
+                        chamber[row][col] = spell;
+                    }
                 }
             }
         }
