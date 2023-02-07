@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9425c604-2d79-4021-b559-7e1eb11fc8f9" name="Changes" comment="Generics all tasks completed" />
+    <list default="true" id="9425c604-2d79-4021-b559-7e1eb11fc8f9" name="Changes" comment="Generics all tasks completed">
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/Collection/ListyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/Collection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/ComparingObjects/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/ComparingObjects/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/Froggy/Lake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/Froggy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/ListyIterator/ListyIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/ListyIterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/StackIterator/CustomStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/StackIterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/StrategyPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/StrategyPattern/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/StrategyPattern/PersonAgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/StrategyPattern/PersonNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/Book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/Book/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/BookComparator/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/BookComparator/BookComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/BookComparator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/ComparableBook/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/ComparableBook/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/ComparableBook/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/Library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/Library/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src/Library/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamFeb2022/PawnWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamFeb2022/PawnWars.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Hus/IdeaProjects/Soft-Uni-Tasks/Soft-Uni-Tasks/Java Advanced/Generics/GenericsExercise/src/Threeuple",
+    "last_opened_file_path": "C:/Users/Hus/IdeaProjects/Soft-Uni-Tasks/Soft-Uni-Tasks/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src/Collection",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
@@ -41,19 +70,28 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java Advanced\IteratorsAndComparators\IteratorsAndComparatorsExercise\src\Collection" />
+      <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java Advanced\IteratorsAndComparators\IteratorsAndComparatorsLab\src\BookComparator" />
+      <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java Advanced\IteratorsAndComparators\IteratorsAndComparatorsLab\src\ComparableBook" />
+      <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java Advanced\IteratorsAndComparators\IteratorsAndComparatorsLab\src\Library" />
       <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java Advanced\Generics\GenericsExercise\src\Threeuple" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java Advanced\IteratorsAndComparators" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BookComparator" />
+      <recent name="ComparableBook" />
       <recent name="CustomListSorter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Threeuple.Main">
-    <configuration name="CustomListTask.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CustomListTask.Main" />
+  <component name="RunManager" selected="Application.StrategyPattern.Main">
+    <configuration name="Collection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Main" />
       <module name="Soft-Uni-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CustomListTask.*" />
+          <option name="PATTERN" value="Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheRealQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultidimensionalArraysLab.FindTheRealQueen" />
+    <configuration name="Froggy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Froggy.Main" />
       <module name="Soft-Uni-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MultidimensionalArraysLab.*" />
+          <option name="PATTERN" value="Froggy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,11 +113,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CustomListSorter.Main" />
+      <option name="MAIN_CLASS_NAME" value="ComparingObjects.Main" />
       <module name="Soft-Uni-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CustomListSorter.*" />
+          <option name="PATTERN" value="ComparingObjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Threeuple.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threeuple.Main" />
+    <configuration name="StackIterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackIterator.Main" />
       <module name="Soft-Uni-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Threeuple.*" />
+          <option name="PATTERN" value="StackIterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tuple.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tuple.Main" />
+    <configuration name="StrategyPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrategyPattern.Main" />
       <module name="Soft-Uni-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tuple.*" />
+          <option name="PATTERN" value="StrategyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Threeuple.Main" />
-        <item itemvalue="Application.Tuple.Main" />
-        <item itemvalue="Application.CustomListTask.Main" />
+        <item itemvalue="Application.StrategyPattern.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FindTheRealQueen" />
+        <item itemvalue="Application.Froggy.Main" />
+        <item itemvalue="Application.StackIterator.Main" />
+        <item itemvalue="Application.Collection.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675430660442</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Generics all tasks completed">
+      <created>1675430709640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675430709640</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,5 +201,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Generics all tasks completed" />
     <option name="LAST_COMMIT_MESSAGE" value="Generics all tasks completed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamFeb2022/PawnWars.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

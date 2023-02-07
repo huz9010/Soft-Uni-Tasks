@@ -5,7 +5,10 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Java Advanced/DefiningClasses/DefiningClassesExercise/CarSalesman/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Java Advanced/Generics/GenericsExercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java Advanced/Java Advanced Exam Practise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Java Advanced/MultidimensionalArrays/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
