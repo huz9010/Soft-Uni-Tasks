@@ -3,9 +3,6 @@ package ExamFeb2022;
 import java.util.HashMap;
 import java.util.Scanner;
 
-// TO DO: make black and white pawns move on chessboard!!!
-
-
 public class PawnWars {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -34,40 +31,64 @@ public class PawnWars {
         chessboardLetters.put(6, "g");
         chessboardLetters.put(7, "h");
 
+        HashMap<Integer, Integer> chessboardNumbers = new HashMap<>();
+        chessboardNumbers.put(0, 8);
+        chessboardNumbers.put(1, 7);
+        chessboardNumbers.put(2, 6);
+        chessboardNumbers.put(3, 5);
+        chessboardNumbers.put(4, 4);
+        chessboardNumbers.put(5, 3);
+        chessboardNumbers.put(6, 2);
+        chessboardNumbers.put(7, 1);
+
         int moves = 1;
 
 
-        while (bPawnRow < chessboard.length - 1 && wPawnRow > 0)    {
+        while (true)    {
 
             if (moves % 2 != 0) {
 
                 if (checkLeftDiagonal(chessboard, wPawnRow, wPawnCol, "b") || checkRightDiagonal(chessboard, wPawnRow,  wPawnCol, "b"))   {
-                    System.out.printf("Game over! White capture on %s%d.", chessboardLetters.get(bPawnCol), chessboard.length - wPawnRow + 1);
+                    System.out.printf("Game over! White capture on %s%d.", chessboardLetters.get(bPawnCol), chessboardNumbers.get(bPawnRow));
                     break;
                 }   else {
+                    chessboard[wPawnRow][wPawnCol] = "-";
                     wPawnRow--;
+                    chessboard[wPawnRow][wPawnCol] = "w";
 
-                    if (wPawnRow == 0)  {
-                        System.out.printf("Game over! White pawn is promoted to a queen at %s8.", chessboardLetters.get(wPawnCol));
-                        break;
-                    }
+                    if (whitePawnQueen(wPawnRow, wPawnCol, chessboardLetters)) break;
                 }
             }   else {
 
-                if (checkLeftDiagonal(chessboard, bPawnRow, wPawnCol, "w") || checkRightDiagonal(chessboard, bPawnRow, wPawnCol, "w"))   {
-                    System.out.printf("Game over! Black capture on %s%d.", chessboardLetters.get(wPawnCol), chessboard.length - wPawnRow + 1);
+                if (checkLeftDiagonal(chessboard, bPawnRow, bPawnCol, "w") || checkRightDiagonal(chessboard, bPawnRow, wPawnCol, "w"))   {
+                    System.out.printf("Game over! Black capture on %s%d.", chessboardLetters.get(wPawnCol), chessboardNumbers.get(wPawnRow));
                     break;
                 }   else {
+                    chessboard[bPawnRow][bPawnCol] = "-";
                     bPawnRow++;
+                    chessboard[bPawnRow][bPawnCol] = "b";
 
-                    if (bPawnRow == chessboard.length - 1)  {
-                        System.out.printf("Game over! Black pawn is promoted to a queen at %s8.", chessboardLetters.get(bPawnCol));
-                        break;
-                    }
+                    if (blackPawnQueen(chessboard, bPawnRow, bPawnCol, chessboardLetters)) break;
                 }
             }
             moves++;
         }
+    }
+
+    private static boolean blackPawnQueen(String[][] chessboard, int bPawnRow, int bPawnCol, HashMap<Integer, String> chessboardLetters) {
+        if (bPawnRow == chessboard.length - 1)  {
+            System.out.printf("Game over! Black pawn is promoted to a queen at %s1.", chessboardLetters.get(bPawnCol));
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean whitePawnQueen(int wPawnRow, int wPawnCol, HashMap<Integer, String> chessboardLetters) {
+        if (wPawnRow == 0)  {
+            System.out.printf("Game over! White pawn is promoted to a queen at %s8.", chessboardLetters.get(wPawnCol));
+            return true;
+        }
+        return false;
     }
 
     private static boolean checkRightDiagonal(String[][] chessboard, int pawnRow, int pawnCol, String color) {
