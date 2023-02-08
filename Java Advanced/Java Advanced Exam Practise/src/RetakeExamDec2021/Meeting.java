@@ -18,7 +18,7 @@ public class Meeting {
         int male = malesStack.peek();
         int female = femalesQueue.peek();
 
-        while (!malesStack.isEmpty() || !femalesQueue.isEmpty())    {
+        while (!malesStack.isEmpty() && !femalesQueue.isEmpty())    {
 
             if (male <= 0)  {
                 malesStack.pop();
