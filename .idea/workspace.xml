@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9425c604-2d79-4021-b559-7e1eb11fc8f9" name="Changes" comment="Retake Exam Dec 2021 Added">
-      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamOct2021/AutumnCocktails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamOct2021/MouseAndCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamOct2021/hotel/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamOct2021/hotel/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamOct2021/hotel/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/RetakeExamAug2021/FormulaOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/RetakeExamAug2021/PastryShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/cafe/Cafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/cafe/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/cafe/Main.java" afterDir="false" />
+    <list default="true" id="9425c604-2d79-4021-b559-7e1eb11fc8f9" name="Changes" comment="Exams to Retake Exam Aug 2021 Completed">
+      <change afterPath="$PROJECT_DIR$/Softuniada2022/src/CoffeeCups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Softuniada2022/src/HappyThreeFriends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Softuniada2022/src/SortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Softuniada2022/src/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Softuniada2022/src/SumOfGCPAndLCM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/RetakeExamDec2021/Meeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/RetakeExamDec2021/Meeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Advanced/StreamsFilesAndDirectories/src/StreamsFilesAndDirectoriesLab/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Advanced/StreamsFilesAndDirectories/src/StreamsFilesAndDirectoriesLab/ReadFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,11 @@
       <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java Advanced\Generics\GenericsExercise\src\Threeuple" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Algorithms\Intro" />
       <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java Advanced\IteratorsAndComparators" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="BookComparator" />
@@ -69,79 +69,49 @@
       <recent name="CustomListSorter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="FormulaOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RetakeExamAug2021.FormulaOne" />
+  <component name="RunManager" selected="Application.HappyThreeFriends">
+    <configuration name="CoffeeCups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoffeeCups" />
       <module name="Soft-Uni-Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RetakeExamAug2021.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cafe.Main" />
+    <configuration name="HappyThreeFriends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HappyThreeFriends" />
       <module name="Soft-Uni-Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cafe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MouseAndCheese" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExamOct2021.MouseAndCheese" />
+    <configuration name="SortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortedArray" />
       <module name="Soft-Uni-Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExamOct2021.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PastryShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RetakeExamAug2021.PastryShop" />
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpiralMatrix" />
       <module name="Soft-Uni-Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RetakeExamAug2021.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hotel.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hotel.Main" />
+    <configuration name="SumOfGCPAndLCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfGCPAndLCM" />
       <module name="Soft-Uni-Tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hotel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FormulaOne" />
-        <item itemvalue="Application.PastryShop" />
-        <item itemvalue="Application.hotel.Main" />
-        <item itemvalue="Application.MouseAndCheese" />
+        <item itemvalue="Application.HappyThreeFriends" />
+        <item itemvalue="Application.SpiralMatrix" />
+        <item itemvalue="Application.SortedArray" />
+        <item itemvalue="Application.CoffeeCups" />
+        <item itemvalue="Application.SumOfGCPAndLCM" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675805460238</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exams to Retake Exam Aug 2021 Completed">
+      <created>1675865492787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675865492787</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,7 +177,8 @@
     <MESSAGE value="Generics all tasks completed" />
     <MESSAGE value="Iterators and Comparators completed (without extra tasks)" />
     <MESSAGE value="Retake Exam Dec 2021 Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retake Exam Dec 2021 Added" />
+    <MESSAGE value="Exams to Retake Exam Aug 2021 Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exams to Retake Exam Aug 2021 Completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,6 +197,11 @@
           <url>file://$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamOct2021/MouseAndCheese.java</url>
           <line>24</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Algorithms/Intro/Exercises/src/MaxElementInArray.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

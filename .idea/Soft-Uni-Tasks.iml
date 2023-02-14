@@ -9,6 +9,14 @@
       <sourceFolder url="file://$MODULE_DIR$/Java Advanced/MultidimensionalArrays/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsExercise/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Java Advanced/IteratorsAndComparators/IteratorsAndComparatorsLab/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithms/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java Advanced/FunctionalProgramming/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java Advanced/SetsAndMapsAdvanced/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java Advanced/StacksAndQueues/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java Advanced/StreamsFilesAndDirectories/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Softuniada2022/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithms/Intro/Exercises/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Algorithms/Intro/Lab/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
