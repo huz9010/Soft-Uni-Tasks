@@ -17,6 +17,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Softuniada2022/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Algorithms/Intro/Exercises/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Algorithms/Intro/Lab/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java Advanced/ExamFeb2023/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

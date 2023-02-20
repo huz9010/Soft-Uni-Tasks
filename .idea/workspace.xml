@@ -4,15 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9425c604-2d79-4021-b559-7e1eb11fc8f9" name="Changes" comment="Exams to Retake Exam Aug 2021 Completed">
-      <change afterPath="$PROJECT_DIR$/Softuniada2022/src/CoffeeCups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Softuniada2022/src/HappyThreeFriends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Softuniada2022/src/SortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Softuniada2022/src/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Softuniada2022/src/SumOfGCPAndLCM.java" afterDir="false" />
+    <list default="true" id="9425c604-2d79-4021-b559-7e1eb11fc8f9" name="Changes" comment="Softuniada 2022 first 4 tasks">
+      <change afterPath="$PROJECT_DIR$/Java Advanced/ExamFeb2023/src/ApocalypsePreparation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/ExamFeb2023/src/BlindMansBuff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/ExamFeb2023/src/kindergarten/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/ExamFeb2023/src/kindergarten/Kindergarten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/ExamFeb2023/src/kindergarten/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/card_rank/CardRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/card_rank/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/card_suit/CardSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/card_suit/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/cards_with_power/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/cards_with_power/CardRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/cards_with_power/CardSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/cards_with_power/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/jediGalaxy/EvilPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/jediGalaxy/Galaxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/jediGalaxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/jediGalaxy/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/traffic_lights/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/traffic_lights/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/traffic_lights/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/hotel_reservation/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/hotel_reservation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/hotel_reservation/PriceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/hotel_reservation/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/point_in_rectangle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/point_in_rectangle/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/point_in_rectangle/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/rhombus/of/stars/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/student_system/Commentary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/student_system/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/student_system/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/student_system/StudentSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Advanced/StreamsFilesAndDirectories/src/StreamsFilesAndDirectoriesLab/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java Advanced/StreamsFilesAndDirectories/src/StreamsFilesAndDirectoriesLab/ReadFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +51,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -57,6 +87,8 @@
       <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java Advanced\Generics\GenericsExercise\src\Threeuple" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java OOP\WorkingWithAbstraction\WorkingWithAbstractionExercise\src" />
+      <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java OOP\WorkingWithAbstraction\WorkingWithAbstractionLab\src\student_system" />
       <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Algorithms\Intro" />
       <recent name="C:\Users\Hus\IdeaProjects\Soft-Uni-Tasks\Soft-Uni-Tasks\Java Advanced\IteratorsAndComparators" />
     </key>
@@ -64,54 +96,86 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cars_with_power" />
+      <recent name="card_rank" />
       <recent name="BookComparator" />
       <recent name="ComparableBook" />
       <recent name="CustomListSorter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HappyThreeFriends">
-    <configuration name="CoffeeCups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoffeeCups" />
+  <component name="RunManager" selected="Application.jediGalaxy.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="card_suit.Main" />
       <module name="Soft-Uni-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="card_suit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HappyThreeFriends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HappyThreeFriends" />
+    <configuration name="card_rank.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="card_rank.Main" />
       <module name="Soft-Uni-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="card_rank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortedArray" />
+    <configuration name="cards_with_power.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cards_with_power.Main" />
       <module name="Soft-Uni-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cards_with_power.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SpiralMatrix" />
+    <configuration name="jediGalaxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jediGalaxy.Main" />
       <module name="Soft-Uni-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jediGalaxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfGCPAndLCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfGCPAndLCM" />
+    <configuration name="traffic_lights.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="traffic_lights.Main" />
       <module name="Soft-Uni-Tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="traffic_lights.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HappyThreeFriends" />
-        <item itemvalue="Application.SpiralMatrix" />
-        <item itemvalue="Application.SortedArray" />
-        <item itemvalue="Application.CoffeeCups" />
-        <item itemvalue="Application.SumOfGCPAndLCM" />
+        <item itemvalue="Application.jediGalaxy.Main" />
+        <item itemvalue="Application.traffic_lights.Main" />
+        <item itemvalue="Application.cards_with_power.Main" />
+        <item itemvalue="Application.card_rank.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675865492787</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Softuniada 2022 first 4 tasks">
+      <created>1676383971538</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676383971539</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +249,8 @@
     <MESSAGE value="Iterators and Comparators completed (without extra tasks)" />
     <MESSAGE value="Retake Exam Dec 2021 Added" />
     <MESSAGE value="Exams to Retake Exam Aug 2021 Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exams to Retake Exam Aug 2021 Completed" />
+    <MESSAGE value="Softuniada 2022 first 4 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Softuniada 2022 first 4 tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -197,11 +269,6 @@
           <url>file://$PROJECT_DIR$/Java Advanced/Java Advanced Exam Practise/src/ExamOct2021/MouseAndCheese.java</url>
           <line>24</line>
           <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Algorithms/Intro/Exercises/src/MaxElementInArray.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
