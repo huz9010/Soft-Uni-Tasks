@@ -4,44 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9425c604-2d79-4021-b559-7e1eb11fc8f9" name="Changes" comment="Softuniada 2022 first 4 tasks">
-      <change afterPath="$PROJECT_DIR$/Java Advanced/ExamFeb2023/src/ApocalypsePreparation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/ExamFeb2023/src/BlindMansBuff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/ExamFeb2023/src/kindergarten/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/ExamFeb2023/src/kindergarten/Kindergarten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java Advanced/ExamFeb2023/src/kindergarten/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/card_rank/CardRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/card_rank/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/card_suit/CardSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/card_suit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/cards_with_power/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/cards_with_power/CardRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/cards_with_power/CardSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/cards_with_power/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/jediGalaxy/EvilPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/jediGalaxy/Galaxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/jediGalaxy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/jediGalaxy/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/traffic_lights/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/traffic_lights/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/traffic_lights/TrafficLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/hotel_reservation/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/hotel_reservation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/hotel_reservation/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/hotel_reservation/Season.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/point_in_rectangle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/point_in_rectangle/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/point_in_rectangle/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/rhombus/of/stars/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/student_system/Commentary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/student_system/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/student_system/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionLab/src/student_system/StudentSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Soft-Uni-Tasks.iml" afterDir="false" />
+    <list default="true" id="9425c604-2d79-4021-b559-7e1eb11fc8f9" name="Changes" comment="Java Advanced Exam and Working with Abstraction lab and exercise(exercise not completed)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Bag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java OOP/WorkingWithAbstraction/WorkingWithAbstractionExercise/src/greedyTimes/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,13 +70,13 @@
       <recent name="CustomListSorter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.jediGalaxy.Main">
+  <component name="RunManager" selected="Application.greedyTimes.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="card_suit.Main" />
+      <option name="MAIN_CLASS_NAME" value="greedyTimes.Main" />
       <module name="Soft-Uni-Tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="card_suit.*" />
+          <option name="PATTERN" value="greedyTimes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.greedyTimes.Main" />
         <item itemvalue="Application.jediGalaxy.Main" />
         <item itemvalue="Application.traffic_lights.Main" />
         <item itemvalue="Application.cards_with_power.Main" />
         <item itemvalue="Application.card_rank.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676383971539</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Java Advanced Exam and Working with Abstraction lab and exercise(exercise not completed)">
+      <created>1676902885724</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676902885724</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +224,8 @@
     <MESSAGE value="Retake Exam Dec 2021 Added" />
     <MESSAGE value="Exams to Retake Exam Aug 2021 Completed" />
     <MESSAGE value="Softuniada 2022 first 4 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Softuniada 2022 first 4 tasks" />
+    <MESSAGE value="Java Advanced Exam and Working with Abstraction lab and exercise(exercise not completed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Advanced Exam and Working with Abstraction lab and exercise(exercise not completed)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
