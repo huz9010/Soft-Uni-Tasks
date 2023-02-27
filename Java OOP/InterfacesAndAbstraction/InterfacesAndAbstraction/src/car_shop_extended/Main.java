@@ -10,11 +10,11 @@ public class Main {
     }
 
     private static void printCarInfo(Car car) {
-        System.out.println(String.format(
-                "%s is %s color and have %s horse power",
+        System.out.printf(
+                "%s is %s color and have %s horse power%n",
                 car.getModel(),
                 car.getColor(),
-                car.getHorsePower()));
+                car.getHorsePower());
         System.out.println(car.toString());
     }
 }

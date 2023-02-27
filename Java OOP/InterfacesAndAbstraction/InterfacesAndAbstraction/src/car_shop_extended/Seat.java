@@ -1,7 +1,5 @@
 package car_shop_extended;
 
-import java.io.Serializable;
-
 public class Seat extends CarImpl implements Sellable {
 
     private Double price;
