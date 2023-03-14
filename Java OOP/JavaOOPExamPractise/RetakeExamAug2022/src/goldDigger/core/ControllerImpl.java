@@ -1,43 +1,50 @@
 package goldDigger.core;
 
-import goldDigger.common.DiscovererTypes;
-import goldDigger.models.discoverer.Anthropologist;
-import goldDigger.models.discoverer.Archaeologist;
-import goldDigger.models.discoverer.Discoverer;
+import goldDigger.common.ConstantMessages;
+import goldDigger.common.ExceptionMessages;
+import goldDigger.models.discoverer.*;
+import goldDigger.models.operation.OperationImpl;
 import goldDigger.models.spot.Spot;
 import goldDigger.models.spot.SpotImpl;
 import goldDigger.repositories.DiscovererRepository;
 import goldDigger.repositories.Repository;
 import goldDigger.repositories.SpotRepository;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 import static goldDigger.common.ConstantMessages.*;
 import static goldDigger.common.ExceptionMessages.*;
 
-public class ControllerImpl implements Controller{
+public class ControllerImpl implements Controller {
 
     private Repository<Discoverer> discovererRepository;
     private Repository<Spot> spotRepository;
+    private int spotsInspected;
 
     public ControllerImpl() {
         discovererRepository = new DiscovererRepository();
         spotRepository = new SpotRepository();
+        spotsInspected = 0;
     }
 
     @Override
     public String addDiscoverer(String kind, String discovererName) {
-        DiscovererTypes discovererType = DiscovererTypes.valueOf(kind);
-        Discoverer discoverer = null;
-        switch (discovererType) {
-            case Anthropologist:
+        Discoverer discoverer;
+        switch (kind) {
+            case "Anthropologist":
                 discoverer = new Anthropologist(discovererName);
                 break;
-            case Archaeologist:
+            case "Archaeologist":
                 discoverer = new Archaeologist(discovererName);
                 break;
+            case "Geologist":
+                discoverer = new Geologist(discovererName);
+                break;
             default:
-                throw new IllegalArgumentException(SPOT_DISCOVERERS_DOES_NOT_EXISTS);
+                throw new IllegalArgumentException(ExceptionMessages.DISCOVERER_INVALID_KIND);
         }
-        discovererRepository.add(discoverer);
+        this.discovererRepository.add(discoverer);
         return String.format(DISCOVERER_ADDED, kind, discovererName);
     }
 
@@ -54,22 +61,38 @@ public class ControllerImpl implements Controller{
 
     @Override
     public String excludeDiscoverer(String discovererName) {
-        for (Discoverer discoverer : discovererRepository.getCollection())  {
-            if (discoverer.getName().equals(discovererName))    {
-                discovererRepository.getCollection().remove(discoverer);
-                return String.format(DISCOVERER_EXCLUDE, discovererName);
-            }
+        Discoverer discoverer = discovererRepository.byName(discovererName);
+        if (discoverer == null) {
+            throw new IllegalArgumentException(String.format(ExceptionMessages.DISCOVERER_DOES_NOT_EXIST,discovererName));
         }
-        throw new IllegalArgumentException(String.format(DISCOVERER_EXCLUDE, discovererName));
+        discovererRepository.remove(discoverer);
+
+        return String.format(ConstantMessages.DISCOVERER_EXCLUDE, discovererName);
     }
 
     @Override
     public String inspectSpot(String spotName) {
-        return null;
+        List<Discoverer> discoverers = discovererRepository.getCollection().stream().filter(e -> e.getEnergy() > 45).collect(Collectors.toList());
+
+        if (discoverers.isEmpty()) {
+            throw new IllegalArgumentException(SPOT_DISCOVERERS_DOES_NOT_EXISTS);
+        }
+
+        OperationImpl operation = new OperationImpl();
+        operation.startOperation(spotRepository.byName(spotName), discoverers);
+        this.spotsInspected++;
+        long discoverersExcluded = discovererRepository.getCollection().stream().filter(e -> e.getEnergy() == 0).count();
+        return String.format(INSPECT_SPOT, spotName, discoverersExcluded);
     }
 
     @Override
     public String getStatistics() {
-        return null;
+        StringBuilder sb = new StringBuilder();
+        sb.append(String.format(FINAL_SPOT_INSPECT, spotsInspected)).append(System.lineSeparator());
+        sb.append(FINAL_DISCOVERER_INFO).append(System.lineSeparator());
+        for (Discoverer discoverer : discovererRepository.getCollection())  {
+            sb.append(discoverer);
+        }
+        return sb.toString().trim();
     }
 }

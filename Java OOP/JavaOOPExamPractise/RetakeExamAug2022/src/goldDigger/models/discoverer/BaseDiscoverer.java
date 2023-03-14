@@ -1,6 +1,9 @@
 package goldDigger.models.discoverer;
 
+import goldDigger.models.museum.BaseMuseum;
 import goldDigger.models.museum.Museum;
+
+import java.util.stream.Collectors;
 
 import static goldDigger.common.ExceptionMessages.*;
 
@@ -14,16 +17,30 @@ public abstract class BaseDiscoverer implements Discoverer {
     protected BaseDiscoverer(String name, double energy) {
         setName(name);
         setEnergy(energy);
+        this.museum = new BaseMuseum();
+    }
+
+    @Override
+    public String toString()    {
+        String exhibits;
+        if (museum.getExhibits().isEmpty()) {
+            exhibits = "None";
+        }   else {
+            exhibits = museum.getExhibits().stream().map(String::valueOf).collect(Collectors.joining(", "));
+        }
+        return String.format("Name: %s%n" +
+                        "Energy: %.0f%n" +
+                "Museum exhibits: %s%n", this.name, this.energy, exhibits);
     }
 
     @Override
     public String getName() {
-        return this.name;
+        return name;
     }
 
     @Override
     public double getEnergy() {
-        return this.energy;
+        return energy;
     }
 
     @Override
@@ -33,19 +50,16 @@ public abstract class BaseDiscoverer implements Discoverer {
 
     @Override
     public Museum getMuseum() {
-        return this.museum;
+        return museum;
     }
 
     @Override
     public void dig() {
-        energy -= ENERGY_DECREASE_VALUE;
-        if (energy < 0) {
-            energy = 0;
-        }
+        this.energy = Math.max(0, this.energy - ENERGY_DECREASE_VALUE);
     }
 
     private void setName(String name) {
-        if (name.isEmpty() || name.equals(" ")) {
+        if (name == null || name.trim().isEmpty()) {
             throw new NullPointerException(DISCOVERER_NAME_NULL_OR_EMPTY);
         }
         this.name = name;

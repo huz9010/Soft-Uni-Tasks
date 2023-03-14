@@ -12,11 +12,11 @@ public class SpotImpl implements Spot {
 
     public SpotImpl(String name) {
         setName(name);
-        exhibits = new ArrayList<>();
+        this.exhibits = new ArrayList<>();
     }
 
     private void setName(String name) {
-        if (name.isEmpty() || name.equals(" ")) {
+        if (name == null || name.trim().isEmpty()) {
             throw new NullPointerException(SPOT_NAME_NULL_OR_EMPTY);
         }
         this.name = name;
