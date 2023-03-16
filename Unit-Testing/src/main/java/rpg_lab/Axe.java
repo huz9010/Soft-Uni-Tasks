@@ -26,4 +26,5 @@ public class Axe {
         target.takeAttack(this.attackPoints);
         this.durabilityPoints -= 1;
     }
+
 }
