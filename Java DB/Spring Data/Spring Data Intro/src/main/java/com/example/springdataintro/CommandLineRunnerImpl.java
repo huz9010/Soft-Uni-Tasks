@@ -36,21 +36,15 @@ public class CommandLineRunnerImpl implements CommandLineRunner {
         while (!input.equals("0")) {
 
             switch (input) {
-                case "1":
-                    printAllBooksAfterYear(2000);
-                    break;
-                case "2":
-                    printAllAuthorsWithBookBeforeYear(1990);
-                    break;
-                case "3":
-                    printAllAuthorsWithBooksCountDesc();
-                    break;
-                case "4":
-                    printAllBooksOfAuthorOrderByReleaseDateDescTitle("George", "Powell");
-                    break;
-                default:
+                case "1" -> printAllBooksAfterYear(2000);
+                case "2" -> printAllAuthorsWithBookBeforeYear(1990);
+                case "3" -> printAllAuthorsWithBooksCountDesc();
+                case "4" -> printAllBooksOfAuthorOrderByReleaseDateDescTitle("George", "Powell");
+                default -> {
                     System.out.println("Invalid operation! Please choose a valid option: ");
                     input = reader.readLine();
+                    continue;
+                }
             }
             printMenu();
             input = reader.readLine();
@@ -91,6 +85,7 @@ public class CommandLineRunnerImpl implements CommandLineRunner {
                 "1. Get all books after the year 2000. Print only their titles.\n" +
                 "2. Get all authors with at least one book with release date before 1990. Print their first name and last name.\n" +
                 "3. Get all authors, ordered by the number of their books (descending). Print their first name, last name and book count.\n" +
-                "4. Get all books from author George Powell, ordered by their release date (descending), then by book title (ascending). Print the book's title, release date and copies.");
+                "4. Get all books from author George Powell, ordered by their release date (descending), then by book title (ascending). Print the book's title, release date and copies.\n" +
+                "0. Exit");
     }
 }
